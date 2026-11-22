@@ -1,10 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
 <rss version="2.0">
   <channel>
-    <title>早晨报首页</title>
+    <title>ZCB</title>
     <link>https://www.zaochenbao.com/</link>
-    <description>从保存的早晨报首页提取的新闻链接（静态快照）</description>
+    <description>ZCB 新闻更新</description>
     <language>zh-cn</language>
+    <item>
+      <title>中国下调融资保证金比例至80% 料释放4000亿人民币资金</title>
+      <link>https://www.zaochenbao.com/news/china/202611/2286008.html</link>
+      <guid isPermaLink="true">https://www.zaochenbao.com/news/china/202611/2286008.html</guid>
+      <pubDate>Sun, 22 Nov 2026 20:20:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>宋楚瑜跨党派支持绿营基隆市长候选人童子玮</title>
+      <link>https://www.zaochenbao.com/news/Chronicles/202611/2286007.html</link>
+      <guid isPermaLink="true">https://www.zaochenbao.com/news/Chronicles/202611/2286007.html</guid>
+      <pubDate>Sun, 22 Nov 2026 19:10:00 +0800</pubDate>
+    </item>
     <item>
       <title>特稿：蓝白破局派系角力错综复杂 新竹县蓝绿有得拼</title>
       <link>https://www.zaochenbao.com/news/china/202611/2286006.html</link>
@@ -84,22 +96,10 @@
       <pubDate>Sun, 22 Nov 2026 14:15:00 +0800</pubDate>
     </item>
     <item>
-      <title>神舟二十四号发射场做好发射前各项准备</title>
-      <link>https://www.zaochenbao.com/news/china/202611/2285992.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/china/202611/2285992.html</guid>
-      <pubDate>Sun, 22 Nov 2026 14:15:00 +0800</pubDate>
-    </item>
-    <item>
       <title>毛伟任苏州工业园区党工委书记</title>
       <link>https://www.zaochenbao.com/news/Chronicles/202611/2285989.html</link>
       <guid isPermaLink="true">https://www.zaochenbao.com/news/Chronicles/202611/2285989.html</guid>
       <pubDate>Sun, 22 Nov 2026 12:00:13 +0800</pubDate>
-    </item>
-    <item>
-      <title>中国石油副总经理谢军被查</title>
-      <link>https://www.zaochenbao.com/news/china/202611/2285991.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/china/202611/2285991.html</guid>
-      <pubDate>Sun, 22 Nov 2026 12:00:00 +0800</pubDate>
     </item>
     <item>
       <title>美国证券监管机构调查英伟达会计实操</title>
@@ -258,7 +258,7 @@
       <pubDate>Sat, 21 Nov 2026 07:36:27 +0800</pubDate>
     </item>
     <item>
-      <title>特朗普给中美俄峰会打12分 分析：外交排场盛大却无实质成果</title>
+      <title>特朗普给中美俄峰会打12分 分析：外交排场盛大却无实</title>
       <link>https://www.zaochenbao.com/news/politics/202611/2185929.html</link>
       <guid isPermaLink="true">https://www.zaochenbao.com/news/politics/202611/2185929.html</guid>
       <pubDate>Sat, 21 Nov 2026 07:36:17 +0800</pubDate>
@@ -288,7 +288,7 @@
       <pubDate>Fri, 20 Nov 2026 23:50:13 +0800</pubDate>
     </item>
     <item>
-      <title>路透：美新规生效 台积电限制中国大陆客户使用先进制程</title>
+      <title>路透：美新规生效 台积电限制中国大陆客户使用先进制</title>
       <link>https://www.zaochenbao.com/news/taiwan/202611/2085920.html</link>
       <guid isPermaLink="true">https://www.zaochenbao.com/news/taiwan/202611/2085920.html</guid>
       <pubDate>Fri, 20 Nov 2026 22:50:23 +0800</pubDate>
@@ -408,7 +408,7 @@
       <pubDate>Thu, 19 Nov 2026 19:10:34 +0800</pubDate>
     </item>
     <item>
-      <title>中国称特朗普重申不支持台独 胡锡进：台湾对美价值加速贬值</title>
+      <title>中国称特朗普重申不支持台独 胡锡进：台湾对美价值加</title>
       <link>https://www.zaochenbao.com/news/taiwan/202611/1985856.html</link>
       <guid isPermaLink="true">https://www.zaochenbao.com/news/taiwan/202611/1985856.html</guid>
       <pubDate>Thu, 19 Nov 2026 19:10:27 +0800</pubDate>
@@ -564,12 +564,6 @@
       <pubDate>Mon, 16 Nov 2026 22:50:24 +0800</pubDate>
     </item>
     <item>
-      <title>中国中小学及幼儿园设健康副校长 不坐班不占学校编制</title>
-      <link>https://www.zaochenbao.com/news/Chronicles/202611/1685653.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/Chronicles/202611/1685653.html</guid>
-      <pubDate>Mon, 16 Nov 2026 19:10:09 +0800</pubDate>
-    </item>
-    <item>
       <title>香港特首李家超明天赴深圳出席APEC会议</title>
       <link>https://www.zaochenbao.com/news/hkMacao/202611/1685633.html</link>
       <guid isPermaLink="true">https://www.zaochenbao.com/news/hkMacao/202611/1685633.html</guid>
@@ -594,7 +588,7 @@
       <pubDate>Sun, 15 Nov 2026 19:15:33 +0800</pubDate>
     </item>
     <item>
-      <title>中美角力恐加剧科技脱钩 黄循财：尖端技术或须二选一 其他领域盼保持开放</title>
+      <title>中美角力恐加剧科技脱钩 黄循财：尖端技术或须二选一 其他领域</title>
       <link>https://www.zaochenbao.com/news/world/202611/2285976.html</link>
       <guid isPermaLink="true">https://www.zaochenbao.com/news/world/202611/2285976.html</guid>
     </item>
@@ -607,151 +601,6 @@
       <title>学习时报：警惕伪史论的历史虚无主义危害</title>
       <link>https://www.zaochenbao.com/news/china/202611/2285996.html</link>
       <guid isPermaLink="true">https://www.zaochenbao.com/news/china/202611/2285996.html</guid>
-    </item>
-    <item>
-      <title>黄循财会晤李强：聚焦新中优势互补 推进政府间三合作项目与AI应用</title>
-      <link>https://www.zaochenbao.com/news/world/202611/2285971.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/world/202611/2285971.html</guid>
-    </item>
-    <item>
-      <title>黄循财北京会晤中国总理李强</title>
-      <link>https://www.zaochenbao.com/news/world/202611/2185945.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/world/202611/2185945.html</guid>
-    </item>
-    <item>
-      <title>特朗普：美科技公司若在别国建数据中心 会面临巨额税款</title>
-      <link>https://www.zaochenbao.com/news/politics/202611/2185938.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/politics/202611/2185938.html</guid>
-    </item>
-    <item>
-      <title>贝森特：美中元首一致同意 涉AI军事决策须有人类参与</title>
-      <link>https://www.zaochenbao.com/news/politics/202611/2185936.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/politics/202611/2185936.html</guid>
-    </item>
-    <item>
-      <title>特朗普：仍相信卢特尼克 望黄仁勋郑重道歉并回归</title>
-      <link>https://www.zaochenbao.com/news/politics/202611/2185934.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/politics/202611/2185934.html</guid>
-    </item>
-    <item>
-      <title>中国副总理丁薛祥访新联合主持JCBC会议 今年料达成逾20项成果</title>
-      <link>https://www.zaochenbao.com/news/china/202611/2285970.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/china/202611/2285970.html</guid>
-    </item>
-    <item>
-      <title>高市早苗：日本在台湾问题上的立场没有任何改变</title>
-      <link>https://www.zaochenbao.com/news/taiwan/202611/1985832.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/taiwan/202611/1985832.html</guid>
-    </item>
-    <item>
-      <title>吕爱丽：我会在台北见证历史吗？</title>
-      <link>https://www.zaochenbao.com/news/taiwan/202611/2185928.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/taiwan/202611/2185928.html</guid>
-    </item>
-    <item>
-      <title>台湾APEC代表施振荣已与13国领导人互动</title>
-      <link>https://www.zaochenbao.com/news/taiwan/202611/1985802.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/taiwan/202611/1985802.html</guid>
-    </item>
-    <item>
-      <title>亲赴机场迎接特朗普，46年来首次中国元首接机</title>
-      <link>https://www.zaochenbao.com/news/china/202611/1985816.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/china/202611/1985816.html</guid>
-    </item>
-    <item>
-      <title>韩咏红：中美俄深圳三方会谈谁获利大</title>
-      <link>https://www.zaochenbao.com/news/china/202611/2085879.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/china/202611/2085879.html</guid>
-    </item>
-    <item>
-      <title>习近平再与高市早苗握手约10秒 全程未见开口回应</title>
-      <link>https://www.zaochenbao.com/news/china/202611/1985819.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/china/202611/1985819.html</guid>
-    </item>
-    <item>
-      <title>中美俄发元首《和平宣言》 学者：开启“大国关系深圳1</title>
-      <link>https://www.zaochenbao.com/news/china/202611/2085880.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/china/202611/2085880.html</guid>
-    </item>
-    <item>
-      <title>下午察：高市与习近平握了手却破不了冰</title>
-      <link>https://www.zaochenbao.com/news/china/202611/2085913.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/china/202611/2085913.html</guid>
-    </item>
-    <item>
-      <title>特朗普与习近平同搭扶梯 亲北京港媒：罕见一幕</title>
-      <link>https://www.zaochenbao.com/news/hkMacao/202611/1985871.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/hkMacao/202611/1985871.html</guid>
-    </item>
-    <item>
-      <title>高市早苗与习近平深圳短暂交谈 未举行正式会谈</title>
-      <link>https://www.zaochenbao.com/news/china/202611/1985850.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/china/202611/1985850.html</guid>
-    </item>
-    <item>
-      <title>中国军方严查军服生产运输环节 防止违规外流</title>
-      <link>https://www.zaochenbao.com/news/china/202611/1685618.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/china/202611/1685618.html</guid>
-    </item>
-    <item>
-      <title>赵本山《慌啥子嘛》走红 胡锡进：社会发展好不会成为主旋律</title>
-      <link>https://www.zaochenbao.com/news/china/202611/1885753.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/china/202611/1885753.html</guid>
-    </item>
-    <item>
-      <title>美国白宫：特朗普访华先会晤习近平 再参加中俄美元首会面</title>
-      <link>https://www.zaochenbao.com/news/politics/202611/1685649.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/politics/202611/1685649.html</guid>
-    </item>
-    <item>
-      <title>下午察：中国无人机航母入列在即？</title>
-      <link>https://www.zaochenbao.com/news/china/202611/1685656.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/china/202611/1685656.html</guid>
-    </item>
-    <item>
-      <title>习近平与高市早苗握手 为中日关系恶化后首次互动</title>
-      <link>https://www.zaochenbao.com/news/china/202611/1885776.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/china/202611/1885776.html</guid>
-    </item>
-    <item>
-      <title>习普会先登场 分析：“三巨头”聚首料不会“二对一”</title>
-      <link>https://www.zaochenbao.com/news/china/202611/1885789.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/china/202611/1885789.html</guid>
-    </item>
-    <item>
-      <title>中央纪委罕见通报高官“一把手”职权腐败</title>
-      <link>https://www.zaochenbao.com/news/Chronicles/202611/1585561.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/Chronicles/202611/1585561.html</guid>
-    </item>
-    <item>
-      <title>中美俄元首会晤在即 深圳麒麟山庄戒备森严</title>
-      <link>https://www.zaochenbao.com/news/china/202611/1785671.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/china/202611/1785671.html</guid>
-    </item>
-    <item>
-      <title>内忧外患下展开亚洲行 特朗普会习近平面临新考验</title>
-      <link>https://www.zaochenbao.com/news/politics/202611/1785679.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/politics/202611/1785679.html</guid>
-    </item>
-    <item>
-      <title>习近平与11位APEC经济体领导人将出席工商领导人峰会</title>
-      <link>https://www.zaochenbao.com/news/china/202611/1585573.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/china/202611/1585573.html</guid>
-    </item>
-    <item>
-      <title>外界忧中美俄上演“雅尔塔2.0” 学者称三国难划分势力范围</title>
-      <link>https://www.zaochenbao.com/news/china/202611/1585602.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/china/202611/1585602.html</guid>
-    </item>
-    <item>
-      <title>金正恩女儿滑雪照片曝光 滑雪服近2000新元</title>
-      <link>https://www.zaochenbao.com/news/politics/202611/1885790.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/politics/202611/1885790.html</guid>
-    </item>
-    <item>
-      <title>习近平机场亲自迎接特朗普 高市获接机规格明显低于他</title>
-      <link>https://www.zaochenbao.com/news/politics/202611/1985797.html</link>
-      <guid isPermaLink="true">https://www.zaochenbao.com/news/politics/202611/1985797.html</guid>
     </item>
   </channel>
 </rss>
