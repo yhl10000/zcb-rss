@@ -3,6 +3,7 @@ from email.utils import format_datetime
 from html.parser import HTMLParser
 from pathlib import Path
 import re
+import time
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree as ET
 from zoneinfo import ZoneInfo
@@ -109,6 +110,18 @@ def parse_articles(html, now=None):
     return sorted(articles.values(), key=lambda item: item["published"] or datetime.min.replace(tzinfo=SHANGHAI), reverse=True)[:100]
 
 
+def parse_article_summary(html):
+    parser = PageParser()
+    parser.feed(html)
+    article = next(parser.root.find_all("article"), None)
+    if not article:
+        return None
+    paragraphs = [paragraph.text() for paragraph in article.find_all("p") if paragraph.text()]
+    if not paragraphs:
+        return None
+    return " ".join(paragraphs[:2])[:500].rstrip() or None
+
+
 def render_feed(articles):
     rss = ET.Element("rss", version="2.0")
     channel = ET.SubElement(rss, "channel")
@@ -119,10 +132,46 @@ def render_feed(articles):
         ET.SubElement(item, "title").text = article["title"]
         ET.SubElement(item, "link").text = article["link"]
         ET.SubElement(item, "guid", isPermaLink="true").text = article["link"]
+        if article.get("summary"):
+            ET.SubElement(item, "description").text = article["summary"]
         if article["published"]:
             ET.SubElement(item, "pubDate").text = format_datetime(article["published"])
     ET.indent(rss)
     return ET.tostring(rss, encoding="unicode", xml_declaration=True)
+
+
+def load_cached_summaries(path=OUTPUT):
+    try:
+        root = ET.parse(path).getroot()
+    except (OSError, ET.ParseError):
+        return {}
+    return {
+        item.findtext("guid") or item.findtext("link"): item.findtext("description")
+        for item in root.findall("./channel/item")
+        if (item.findtext("guid") or item.findtext("link")) and item.findtext("description")
+    }
+
+
+def enrich_articles(articles, cached_summaries, fetch_summary):
+    enriched = []
+    for article in articles:
+        summary = cached_summaries.get(article["link"])
+        if not summary:
+            try:
+                summary = fetch_summary(article["link"])
+            except Exception as error:
+                print(f"Skipping summary for {article['link']}: {error}")
+                summary = None
+        enriched.append({**article, "summary": summary})
+    return enriched
+
+
+def fetch_article_summary(url):
+    request = Request(url, headers={"User-Agent": "ZCB-RSS/1.0 (scheduled RSS feed)"})
+    with urlopen(request, timeout=20) as response:
+        body = response.read()
+        encoding = response.headers.get_content_charset() or "gbk"
+    return parse_article_summary(body.decode(encoding, errors="replace"))
 
 
 def main():
@@ -131,7 +180,18 @@ def main():
         body = response.read()
         encoding = response.headers.get_content_charset() or "gbk"
     html = body.decode(encoding, errors="replace")
-    feed = render_feed(parse_articles(html))
+    cached_summaries = load_cached_summaries()
+    last_request = 0
+
+    def fetch_summary(url):
+        nonlocal last_request
+        if last_request:
+            time.sleep(0.5)
+        last_request = time.monotonic()
+        return fetch_article_summary(url)
+
+    articles = enrich_articles(parse_articles(html), cached_summaries, fetch_summary)
+    feed = render_feed(articles)
     temp = OUTPUT.with_suffix(".rss.tmp")
     temp.write_text(feed, encoding="utf-8")
     temp.replace(OUTPUT)
